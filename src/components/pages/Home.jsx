@@ -6,6 +6,7 @@ import Accommodation from '/accommodation_home.png';
 import Homestayhome from '/homestay_home.png';
 import Student from '/student_home.png';
 import Download from '/download.png';
+import Accommodationhome from '/accommodation_home1.png';
 
 const Banner_titulo = 'Simplify Your Homestay process';
 const Banner_contenido = 
@@ -117,6 +118,15 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="container__save">
+        <div className="img_save">
+          <img src={Save} alt="Imagen Save" />
+        </div>
+        <div className="container__texto--save">
+          <h1>{Save_titulo}</h1>
+          <p>{Save_texto}</p>
+        </div>
+      </div>
     </>
   );
 };
