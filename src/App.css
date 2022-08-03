@@ -220,3 +220,140 @@
   color: #4D4C4C;
   font-size: 20px;
 }
+
+/* SERVICES */
+
+.container__service {
+  height: 300px;
+  margin-top: 167px;
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.container__service .card {
+  background-color: #ffffff;
+  width: 30%;
+  height: 441px;
+  margin-right: 24px;
+  margin-left: 3%;
+  border-radius: 4%;
+  box-shadow: -5px 5px 13px 0px #b88bd8;
+  -webkit-box-shadow: -5px 5px 13px 0px #b88bd8;
+}
+
+.container__service .card .card-body {
+  width: 100%;
+  text-align: center;
+  padding: 14px;
+}
+
+.container__service .card .card-body h1{
+  color: #232159;
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.container__service .card .card-body p{
+  text-align: justify;
+  color: #4D4C4C;
+  font-size: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.img_accommodation {
+  width: 75%;
+  height: 14rem;
+  display: block;
+  margin-left:45px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.img_accommodation img {
+  width: 75%;
+  margin-left: 1px;
+  margin-right: 12px;
+  margin-top: 26px;
+}
+.img_homestayhome {
+  width: 75%;
+  height: 14rem;
+  display: block;
+  margin-left:45px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.img_homestayhome img {
+  width: 82%;
+  margin-left: 1px;
+  margin-right: 12px;
+  margin-top: 26px;
+}
+
+.img_student {
+  width: 75%;
+  height: 14rem;
+  display: block;
+  margin-left:45px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.img_student img {
+  width: 76%;
+  margin-left: 1px;
+  margin-right: 12px;
+  margin-top: 26px;
+}
+
+/* Download */
+
+.container__download {
+  width: 100%;
+  height: 600px;
+}
+
+.container__texto--download {
+  width: 50%;
+  margin-left: 33px;
+  text-align: center;
+  padding-top: 322px;
+  height: 65%;
+}
+
+.img_download {
+  width: 40%;
+  margin-top: -220px;
+  margin-left: 750px;
+  text-align: center;
+}
+
+.img_download img {
+  width: 91%;
+  margin-left: -33%;
+  margin-right: 14px;
+  margin-top: 57px;
+}
+
+.container__download h1 {
+  color: #232159;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 10px;
+  
+}
+
+.container__download p {
+  color: #4D4C4C;
+  font-size: 20px;
+  width: 70%;
+  margin-left: 100px;
+}
