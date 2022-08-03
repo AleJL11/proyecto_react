@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Homborinfo from "/homebor_info.png";
 import Homestay_p from "/homestay_p.jpg";
-import 
+
 import User from "/icons/user.svg";
 import Mail from "/icons/mail.svg";
 import Edit from "/icons/edit.svg";
@@ -23,7 +23,7 @@ const Button = <h3 className="text_button">Become a Homestay</h3>;
 const Send = "Send us your Question";
 const Button2 = "Send Message";
 const Firsname = "First Name";
-const 
+
 
 
 
