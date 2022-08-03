@@ -1,12 +1,12 @@
 import '../App.css';
-import White from "/white.png";
+import White from '../assets/img/white.png';
 
 const Footer = () => {
     return (
         
         <div className='container__footer'>
-            <div className="footer">
-                <img id="white-logo" class="logo_f" src="assets/logos/white.png"></img>
+            <div className="img_footer">
+                <img src={White} alt="White"></img>
             </div>
             <div className="ts-copyright">(C) Copyright 2021, All rights reserved
                 <div className="ts-footer-nav">
