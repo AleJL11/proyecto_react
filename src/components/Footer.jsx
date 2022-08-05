@@ -2,6 +2,7 @@ import '../App.css';
 import White from '../assets/img/white.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -11,7 +12,7 @@ const Footer = () => {
             </div>
             <div className="ts-copyright">(C) Copyright 2021, All rights reserved
                 <div className="ts-footer-nav">
-                    <nav class="nav">
+                    <nav className="nav">
                         <a href="https://www.facebook.com/homebor.platform" target="_blank" class="nav-link">
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
