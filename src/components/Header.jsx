@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import '../App.css';
 import HomeborLogo from '../assets/img/homebor_logo.png';
 
@@ -17,10 +18,10 @@ const Header = () => {
                         <Link className='link' to="about">About Us</Link>
                     </li>
                     <li className="item__menu">
-                        <Link className='link' to="services">Services</Link>
+                        <HashLink className='link' to="#services">Services</HashLink>
                     </li>
                     <li className="item__menu">
-                        <Link className='link' to="contact">Contact Us</Link>
+                        <HashLink className='link' to="#contact">Contact Us</HashLink>
                     </li>
                     <li className="item__menu">
                         <Link className='link' to="help">Help</Link>
