@@ -3,7 +3,7 @@ import Accommodation_home_img from "/accommodation_home1.png";
 const Accommodation_home = () => {
   return (
     <>
-      <div className="container__accommodationhome">
+      <div className="container__accommodationhome" id="contact">
         <div className="img_accommodationhome">
           <img src={Accommodation_home_img} alt="Imagen Accommodationhome" />
         </div>

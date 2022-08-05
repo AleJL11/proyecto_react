@@ -1,7 +1,9 @@
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container__header {
@@ -68,6 +70,7 @@
 .banner_img {
   width: 100%;
   height: 650px;
+  margin-top: 80px;
 }
 
 .container__banner {
@@ -249,14 +252,14 @@
   padding: 14px;
 }
 
-.container__service .card .card-body h1{
+.container__service .card .card-body h1 {
   color: #232159;
   font-weight: 500;
   font-size: 23px;
   margin-bottom: 10px;
 }
 
-.container__service .card .card-body p{
+.container__service .card .card-body p {
   text-align: justify;
   color: #4D4C4C;
   font-size: 20px;
@@ -268,30 +271,31 @@
   width: 75%;
   height: 14rem;
   display: block;
-  margin-left:45px;
+  margin-left: 45px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-bottom: 1rem;
 }
 
 .img_accommodation img {
-  width: 75%;
+  width: 89%;
   margin-left: 1px;
   margin-right: 12px;
   margin-top: 26px;
 }
+
 .img_homestayhome {
   width: 75%;
   height: 14rem;
   display: block;
-  margin-left:45px;
+  margin-left: 45px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-bottom: 1rem;
 }
 
 .img_homestayhome img {
-  width: 82%;
+  width: 89%;
   margin-left: 1px;
   margin-right: 12px;
   margin-top: 26px;
@@ -301,14 +305,14 @@
   width: 75%;
   height: 14rem;
   display: block;
-  margin-left:45px;
+  margin-left: 45px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-bottom: 1rem;
 }
 
 .img_student img {
-  width: 76%;
+  width: 89%;
   margin-left: 1px;
   margin-right: 12px;
   margin-top: 26px;
@@ -317,28 +321,30 @@
 /* Download */
 
 .container__download {
+  background-color: #faf2ff;
   width: 100%;
-  height: 600px;
+  height: 700px;
+  margin-top: 180px;
 }
 
 .container__texto--download {
   width: 50%;
   margin-left: 33px;
   text-align: center;
-  padding-top: 322px;
+  padding-top: 250px;
   height: 65%;
 }
 
 .img_download {
   width: 40%;
-  margin-top: -220px;
+  margin-top: -360px;
   margin-left: 750px;
   text-align: center;
 }
 
 .img_download img {
   width: 91%;
-  margin-left: -33%;
+  margin-left: -95%;
   margin-right: 14px;
   margin-top: 57px;
 }
@@ -348,7 +354,7 @@
   font-weight: 500;
   font-size: 30px;
   margin-bottom: 10px;
-  
+
 }
 
 .container__download p {
@@ -462,6 +468,7 @@
 /*About us*/
 
 .titulo_hombor {
+
   text-align: center;
   font-size: 3.5rem;
   color: #232159;
@@ -471,6 +478,7 @@
 }
 
 .Subtitle {
+
   color: #232159;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -478,6 +486,7 @@
 }
 
 .img-info {
+
   width: 22rem;
   max-width: 23rem;
   display: block;
@@ -488,6 +497,7 @@
 }
 
 .container_text {
+
   font-size: 1.2rem;
   color: #232159;
   line-height: 25px;
@@ -495,9 +505,11 @@
   width: 100%;
   margin-top: -33%;
   font-weight: 100;
+
 }
 
 .texto_info {
+
   font-weight: 100;
   padding: 15px;
   width: 50%;
@@ -509,12 +521,16 @@
 }
 
 .container_info2{
+
   width: 100%;
+  
   padding: 140px;
-}
+  
+  }
   
 
 .subtitle2 {
+
   color: #232159;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -525,15 +541,18 @@
 }
 
 .img-info2 {
+
   width: 22rem;
   max-width: 23rem;
   display: block;
   margin: 0 auto;
   border-radius: 10px;
   margin-left: 60%;
+
 }
 
 .texto_info2 {
+
   font-size: 1.2rem;
   color: #232159;
   line-height: 25px;
@@ -546,6 +565,7 @@
 }
 
 .button__info{
+
   font-weight: 100;
   text-decoration: none;
   background-color: white;
@@ -558,16 +578,20 @@
   margin-bottom: 60%;
   box-shadow: -4px 0 13px 0 #b88bd8;
   -webkit-box-shadow: -5px 0 13px 0 #b88bd8;
+
 }
 
 .button__info:hover {
+
   background-color: #232159;
   color: #ffffff;
+
 }
 
 /*enviar correo*/
 
 .sendemail {
+  
   margin-left: 130px;
   margin-top: 20%;
   background-color: #ffffff;
@@ -577,49 +601,72 @@
   border-radius: 4%;
   box-shadow: -5px 5px 13px 0px #b88bd8;
   -webkit-box-shadow: -5px 5px 13px 0px #b88bd8;
+
 }
 
+
+
 .send_question{
-  text-align: center;
-  font-weight: 600;
-  color: #232159;    
-  font-size: 2rem;
-  margin-bottom: 200px;
+
+    text-align: center;
+    font-weight: 600;
+    color: #232159;    
+    font-size: 2rem;
+    margin-bottom: 200px;
 }
 
 
 .formulario{
+
 margin-top: -20%;
 margin-left: 10%;
+
+
 }
 
 .formulario2{
+
   margin-top: -4%;
   margin-left: 60%;
+  
+  
+  
 }
 
 .formulario3{
+
   margin-top: 20%;
   margin-left: 30%;
+  
+  
 }
 
 .formulario4{
+
+
   margin-left: 30%;
   margin-bottom: 20%;
+  
+  
 }
 
 .button__info2{
+
   padding: 0.5rem 1rem;
-  background-color: #4f177d;
-  border: none;
-  border-radius: 10px;
-  color: #fff;
-  cursor: pointer;
-  transition: all .1s;
-  margin: 0 auto;
-  text-decoration: none;
-  margin-left: 40%;
+    background-color: #4f177d;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .1s;
+    margin: 0 auto;
+    text-decoration: none;
+    margin-left: 40%;
+    
+
 }
+
 .button__info2:hover{
+
 background-color: #8A3ACA;
 }

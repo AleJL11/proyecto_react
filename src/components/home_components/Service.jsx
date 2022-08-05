@@ -5,7 +5,7 @@ import Student_img from "/student_home.png";
 const Service = () => {
     return (
     <>
-        <div className="container__service">
+        <div className="container__service" id="services">
             <div className="card">
                 <div className="img_accommodation">
                     <img src={Accommodation_img} alt="Imagen Accommodation" />

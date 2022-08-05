@@ -2,6 +2,7 @@ import '../App.css';
 import White from '../assets/img/white.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
