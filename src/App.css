@@ -603,9 +603,10 @@
   width: 70%;
   height: 841px;
   margin-left: 15%;
-  border-radius: 4%;
+  border-radius: 10px;
   box-shadow: -5px 5px 13px 0px #b88bd8;
   -webkit-box-shadow: -5px 5px 13px 0px #b88bd8;
+  padding: 20px;
 }
 
 
@@ -624,12 +625,13 @@
   margin-left: 10%;
   border-bottom: 2px solid #4f177d;
   width: 28%;
+  padding: 10px;   
 }
 
 
 .campo {
   border: none; 
-  border-style: none;
+  outline:none;
 }
 
 .colocar_texto {
@@ -638,10 +640,11 @@
 
 
 .formulario2 {
-  margin-top: -7%;
+  margin-top: -8%;
   margin-left: 60%;
   border-bottom: 2px solid #4f177d;
   width: 28%;
+  padding: 10px;
 }
 
 .formulario3 {
@@ -670,6 +673,7 @@
   overflow: auto;
   border-bottom: 2px solid #4f177d;
   border-radius: 6px;
+  outline:none;
 }
 
 .icon {
