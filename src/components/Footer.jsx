@@ -1,9 +1,10 @@
 import '../App.css';
 import White from '../assets/img/white.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
-        
         <div className='container__footer'>
             <div className="img_footer">
                 <img src={White} alt="White"></img>
@@ -12,13 +13,13 @@ const Footer = () => {
                 <div className="ts-footer-nav">
                     <nav class="nav">
                         <a href="https://www.facebook.com/homebor.platform" target="_blank" class="nav-link">
-                            <i class="fab fa-facebook-f" id="footer"></i>
+                            <FontAwesomeIcon icon={faFacebook} />
                         </a>
                         <a href="https://www.twitter.com/@Homebor_Platfrm" target="_blank" class="nav-link">
-                            <i class="fab fa-twitter" id="footer"></i>
+                            <FontAwesomeIcon icon={faTwitter} />
                         </a>
                         <a href="https://instagram.com/homebor.platform?utm_medium=copy_link" target="_blank" class="nav-link">
-                            <i class="fab fa-instagram" id="footer"></i>
+                            <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </nav>
                 </div>

@@ -11,6 +11,8 @@ import Login from './components/pages/Login';
 import Register from './components/pages/Register';
 import Footer from "./components/Footer";
 
+import "./App.css";
+
 function App() {
 
   return (
