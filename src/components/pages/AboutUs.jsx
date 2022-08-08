@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
+import ReCAPTCHA from "react-google-recaptcha";
 import Homborinfo from "/homebor_info.png";
 import Homestay_p from "/homestay_p.jpg";
 
 import User from "/icons/user.svg";
 import Mail from "/icons/mail.svg";
 import Edit from "/icons/edit.svg";
-
 
 
 const AboutUs = () => {
@@ -102,11 +102,12 @@ const AboutUs = () => {
         </div>
 
         <div className="container_info3">
-
-
+        
 
         </div>
       </div>
+
+      
     </>
   );
 };
