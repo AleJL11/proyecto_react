@@ -621,13 +621,20 @@
 
 
 .formulario {
-  margin-top: -20%;
+  margin-top: -25%;
   margin-left: 10%;
   border-bottom: 2px solid #4f177d;
   width: 28%;
   padding: 10px;   
 }
 
+.formulario1-2 {
+  margin-top: -11%;
+  margin-left: 60%;
+  border-bottom: 2px solid #4f177d;
+  width: 28%;
+  padding: 10px;   
+}
 
 .campo {
   border: none; 
@@ -635,15 +642,25 @@
 }
 
 .colocar_texto {
-  margin-left: -290px;
+  margin-left: 29px;
 }
 
 
+
 .formulario2 {
-  margin-top: -11%;
+  margin-top: -12%;
   margin-left: 60%;
   border-bottom: 2px solid #4f177d;
   width: 28%;
+  padding: 10px;
+}
+
+
+.formulario2-1 {
+  margin-top: 10%;
+  margin-left: 10%;
+  border-bottom: 2px solid #4f177d;
+  width: 80%;
   padding: 10px;
 }
 
@@ -667,12 +684,53 @@
   padding: 10px 5px;
 }
 
+.formulario3-1 {
+  margin-top: 20%;
+  margin-left: 10%;
+  border-bottom: 2px solid #4f177d;
+  width: 28%;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+
+.formulario3-2 {
+  margin-top: -8%;
+  margin-left: 70%;
+  border-bottom: 2px solid #4f177d;
+  width: 28%;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+
+
 .formulario4 {
   margin-left: 10%;
   margin-bottom: 20%;
   margin-top: 20%;
   width: 80%;
 }
+
+.formulario4-1{
+  margin-left: 10%;
+  margin-bottom: 20%;
+  margin-top: 20%;
+  width: 20%;
+  padding: 20px;
+}
+
+.campo1-1 {
+  width: 100%;
+  border: none;
+  margin-left: 10%;
+  padding: 10px;
+  overflow: auto;
+  border-bottom: 2px solid #4f177d;
+  border-radius: 6px;
+  outline:none;
+}
+
 
 .campo1 {
   width: 80%;
@@ -693,6 +751,16 @@
   top: 2.6rem;
   bottom: 0;
   left: 0rem;
+}
+
+.icon1-2{
+  width: 1.7rem;
+  height: 1.7rem;
+  top: 2.6rem;
+  bottom: 0;
+  left: 0rem;
+  color: #4f177d;
+
 }
 
 .button__info2 {
