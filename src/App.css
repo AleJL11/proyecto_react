@@ -640,12 +640,23 @@
 
 
 .formulario2 {
-  margin-top: -8%;
+  margin-top: -11%;
   margin-left: 60%;
   border-bottom: 2px solid #4f177d;
   width: 28%;
   padding: 10px;
 }
+
+.form-control-error{
+  position: absolute;
+  font-size: 14px;
+  display: none;
+  line-height: 15px;
+  color: #bb2929;
+  width: 85%;
+  visibility: hidden;
+}
+
 
 .formulario3 {
   margin-top: 20%;
