@@ -8,7 +8,7 @@ import Help from './components/pages/Help';
 import Login from './components/pages/Login';
 import Register from './components/pages/Register';
 import Footer from "./components/Footer";
-
+import Sendemail from "../src/components/Sendemail";
 import "./App.css";
 
 function App() {
@@ -23,8 +23,9 @@ function App() {
           <Route path="help" element={<Help />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
-    </Route>
-      </Routes>
+        </Route>
+      <Route path="sendemail" element={<Sendemail />} />
+    </Routes>
       <Footer/>
     </>
   );
