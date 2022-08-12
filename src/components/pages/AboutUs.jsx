@@ -2,12 +2,11 @@ import { Router, Link, Route, Routes } from "react-router-dom";
 import React from "react";
 import Homborinfo from "/homebor_info.png";
 import Homestay_p from "/homestay_p.jpg";
+import Homestay from "/iHomestay_logo.png";
+import download from "/download.png";
 import User from "/icons/user.svg";
 import Mail from "/icons/mail.svg";
 import Edit from "/icons/edit.svg";
-
-
-
 
 const AboutUs = () => {
   return (
@@ -121,21 +120,35 @@ const AboutUs = () => {
               required="obligatorio"
               placeholder="e.g. How can i Register"
             ></textarea>
+          </div>
 
-          </div>       
+          <Link className="button__info2" to="/src/components/Sendemail.jsx">
+            Send Message
+          </Link>
+        </div>
 
-            
-                <Link className="button__info2"  to="/src/components/Sendemail.jsx">          
-                  Send Message
-                </Link>
-  
-          
-      
-              </div>
+      </div>
 
-              <div className="container_info3"></div>
-            </div>
-      
+      <div className="ihomestay">
+          <img className="img_info4" src={Homestay} alt="imagen4" />
+          <p className="text_info4">
+            Being with iHomestay gives the opportunity to Inspires new language
+            possibilities, learn more about their world and learn different
+            culture as well as share your own cultures with international
+            students.
+          </p>
+        </div>
+
+        <hr className="hr" />
+
+        <div className="ihomestay1">
+          <img className="img_info5" src={download} alt="imagen5" />
+
+          <p className="text_info5">
+            Homebor app for hosts is now available. Download it now!!
+          </p>
+        </div>
+
     </>
   );
 };
