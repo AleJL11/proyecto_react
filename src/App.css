@@ -431,34 +431,34 @@
 
 /* Footer */
 
-.container__footer{
-  background-color: rgb(93,65,141);
+.container__footer {
+  background-color: rgb(93, 65, 141);
   width: 100%;
   height: 85px;
   margin-top: 270px;
-} 
+}
 
 .img_footer {
-  background-color: rgb(93,65,141);
+  background-color: rgb(93, 65, 141);
   margin-top: 0rem;
   width: 9rem !important;
   margin-bottom: 0rem !important;
 }
 
-.img_footer img{
+.img_footer img {
   width: 165%;
   margin-left: 57px;
   margin-top: 15px;
 }
 
-.container__footer .ts-copyright{
+.container__footer .ts-copyright {
   text-align: center;
   margin-top: -41px;
   color: #fff;
 }
 
-.container__footer .ts-copyright .ts-footer-nav .nav{
-  background-color: rgb(93,65,141);
+.container__footer .ts-copyright .ts-footer-nav .nav {
+  background-color: rgb(93, 65, 141);
   text-align: right;
   height: 1.3em;
 }
@@ -535,7 +535,6 @@
   padding: 140px;
 }
 
-
 .subtitle2 {
 
   color: #232159;
@@ -593,6 +592,55 @@
   color: #ffffff;
 }
 
+.ihomestay {
+
+  margin-top: 20%;
+
+}
+
+.img_info4 {
+  width: 18rem;
+  margin-left: 4%;
+}
+
+.text_info4 {
+  color: #000;
+  margin-top: 1rem;
+  text-align: justify;
+  padding-right: 0.8rem;
+  font-weight: 300;
+  width: 45%;
+  margin-left: 4%;
+}
+
+.hr {
+  height: 200px;
+  width: 1px;
+  margin-left: 50%;
+  margin-top: -15%;
+  color: #000;
+  background-color: #000;
+
+}
+
+.ihomestay1 {
+  margin-left: 52%;
+}
+
+.img_info5 {
+  width: 16rem;
+  margin-top: -50%;
+}
+
+.text_info5 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  width: 40%;
+  margin-left: 52%;
+  margin-top: -40%;
+}
+
 /*enviar correo*/
 
 .sendemail {
@@ -600,7 +648,7 @@
   margin-left: 130px;
   margin-top: 20%;
   background-color: #ffffff;
-  width: 70%;
+  width: 60%;
   height: 841px;
   margin-left: 15%;
   border-radius: 10px;
@@ -609,6 +657,10 @@
   padding: 20px;
 }
 
+.container-info{
+margin-left: 5%;
+
+}
 
 .send_question {
 
@@ -617,6 +669,7 @@
   color: #232159;
   font-size: 2rem;
   margin-bottom: 200px;
+  font-weight: 300;
 }
 
 
@@ -625,7 +678,7 @@
   margin-left: 10%;
   border-bottom: 2px solid #4f177d;
   width: 28%;
-  padding: 10px;   
+  padding: 10px;
 }
 
 .formulario1-2 {
@@ -633,12 +686,12 @@
   margin-left: 60%;
   border-bottom: 2px solid #4f177d;
   width: 28%;
-  padding: 10px;   
+  padding: 10px;
 }
 
 .campo {
-  border: none; 
-  outline:none;
+  border: none;
+  outline: none;
 }
 
 .colocar_texto {
@@ -664,7 +717,7 @@
   padding: 10px;
 }
 
-.form-control-error{
+.form-control-error {
   position: absolute;
   font-size: 14px;
   display: none;
@@ -685,18 +738,19 @@
 }
 
 .formulario3-1 {
-  margin-top: 20%;
+  margin-top: 5%;
   margin-left: 10%;
   border-bottom: 2px solid #4f177d;
   width: 28%;
   text-align: center;
   padding: 10px 5px;
+
 }
 
 
 .formulario3-2 {
-  margin-top: -8%;
-  margin-left: 70%;
+  margin-top: -13%;
+  margin-left: 60%;
   border-bottom: 2px solid #4f177d;
   width: 28%;
   text-align: center;
@@ -709,15 +763,27 @@
   margin-left: 10%;
   margin-bottom: 20%;
   margin-top: 20%;
-  width: 80%;
 }
 
-.formulario4-1{
+.formulario4-1 {
   margin-left: 10%;
   margin-bottom: 20%;
-  margin-top: 20%;
+  margin-top: 5%;
   width: 20%;
   padding: 20px;
+}
+
+.select{
+
+  width: 90%;
+  border: none;
+  margin-left: 3%;
+  padding: 10px;
+  overflow: auto;
+  border-bottom: 2px solid #4f177d;
+  border-radius: 0;
+  outline: none;
+
 }
 
 .campo1-1 {
@@ -728,7 +794,7 @@
   overflow: auto;
   border-bottom: 2px solid #4f177d;
   border-radius: 6px;
-  outline:none;
+  outline: none;
 }
 
 
@@ -742,26 +808,41 @@
   overflow: auto;
   border-bottom: 2px solid #4f177d;
   border-radius: 6px;
-  outline:none;
+  outline: none;
+}
+
+.colocar_nombre {
+
+  font-weight: 600;
+  color: #4f177d;
+  font-size: .875rem;
+}
+
+.colocar_email {
+  font-weight: 600;
+  color: #4f177d;
+  font-size: .875rem;
+}
+
+.colocar_texto {
+  font-weight: 600;
+  color: #4f177d;
+  font-size: .875rem;
+  margin-left: -30px;
+}
+
+.colocar_texto1 {
+  font-weight: 600;
+  color: #4f177d;
+  font-size: .875rem;
+  margin-left: 10px;
 }
 
 .icon {
-  width: 1.7rem;
-  height: 1.7rem;
-  top: 2.6rem;
-  bottom: 0;
-  left: 0rem;
-}
-
-.icon1-2{
-  width: 1.7rem;
-  height: 1.7rem;
-  top: 2.6rem;
-  bottom: 0;
-  left: 0rem;
-  color: #4f177d;
+  margin-top: 10px;
 
 }
+
 
 .button__info2 {
   padding: 0.5rem 1rem;
