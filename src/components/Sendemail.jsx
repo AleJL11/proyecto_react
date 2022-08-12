@@ -19,7 +19,7 @@ const Sendemail = () => {
               <label for="nombre" className="colocar_nombre">
                 Name             
                 <span className="obligatorio"></span>
-                <img className="icon" src={User} alt="icono de usuario" />
+                <img className="icon1" src={User} alt="icono de usuario" />
               </label>
               
               <input className="campo"
@@ -39,7 +39,7 @@ const Sendemail = () => {
               <label for="nombre" className="colocar_nombre">
                 Last Name             
                 <span className="obligatorio"></span>
-                <img className="icon" src={User} alt="icono de usuario" />
+                <img className="icon2" src={User} alt="icono de usuario" />
               </label>
               
               <input className="campo"
@@ -57,8 +57,8 @@ const Sendemail = () => {
   
             <div className="formulario2-1">
               <label for="email" className="colocar_email">
-                Email
-                <img className="icon" src={Mail} alt="icono de usuario" />
+                Mail
+                <img className="icon3" src={Mail} alt="icono de usuario" />
                 <span class="obligatorio"></span>
               </label>
               <input className="campo"
@@ -69,42 +69,41 @@ const Sendemail = () => {
                 placeholder="e.g. Jhon Smith"
               />
             </div>
-  
+
             <div className="formulario3-1">
               <label for="nombre" className="colocar_texto">
                 Password
-                <img className="icon" src={lock} alt="icono de usuario" />
-                <img className="icon1-2" src={eyes} alt="icono de usuario" />
+                <img className="icon4" src={lock} alt="icono de password" />
                 <span class="obligatorio"></span>
               </label>
               <input className="campo"
                 type="password"
                 name="introducir_nombre"
                 id="nombre"
-                required=""
+                required="obligatorio"
                 placeholder="Password"
               />
             </div>
+  
+           
 
             <div className="formulario3-2">
-              <label for="nombre" className="colocar_texto">
+              <label for="nombre" className="colocar_texto1">
                 Repeat Password
-                <img className="icon" src={lock} alt="icono de usuario" />
-                <img className="icon" src={eyes} alt="icono de usuario" />
+                <img className="icon5" src={lock} alt="icono de password" />
                 <span class="obligatorio"></span>
               </label>
               <input className="campo"
                 type="password"
                 name="introducir_nombre"
                 id="nombre"
-                required=""
-                placeholder="Repeat Password"
+                required="obligatorio"
+                placeholder="Password"
               />
             </div>
   
-  
-            <div className="formulario4-1">
-                    <label for="mensaje" className="colocar_mensaje">
+            <div className="formulario4">
+                    <label for="mensaje" className="colocar_texto1">
                       Register As
                       
                       <span class="obligatorio"></span>
@@ -112,10 +111,10 @@ const Sendemail = () => {
                     
                       <form action="#">
                         
-                          <select name="lenguajes" id="lang">
+                          <select name="lenguajes" id="lang" className="select">
                           <option disabled selected>--Select Option--</option>
-                          <option value="javascript">JavaScript</option>
-                          <option value="php">PHP</option>                      
+                          <option value="javascript">Register As Student</option>
+                          <option value="php">Register As Homestay</option>                      
                           </select>
                       
                     </form>   
