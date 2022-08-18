@@ -22,4 +22,4 @@ const Help = () => {
 
 export default Help;
 
-export default Help;
+
