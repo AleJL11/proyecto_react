@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -432,34 +431,34 @@
 
 /* Footer */
 
-.container__footer{
-  background-color: rgb(93,65,141);
+.container__footer {
+  background-color: rgb(93, 65, 141);
   width: 100%;
   height: 85px;
   margin-top: 270px;
-} 
+}
 
 .img_footer {
-  background-color: rgb(93,65,141);
+  background-color: rgb(93, 65, 141);
   margin-top: 0rem;
   width: 9rem !important;
   margin-bottom: 0rem !important;
 }
 
-.img_footer img{
+.img_footer img {
   width: 165%;
   margin-left: 57px;
   margin-top: 15px;
 }
 
-.container__footer .ts-copyright{
+.container__footer .ts-copyright {
   text-align: center;
   margin-top: -41px;
   color: #fff;
 }
 
-.container__footer .ts-copyright .ts-footer-nav .nav{
-  background-color: rgb(93,65,141);
+.container__footer .ts-copyright .ts-footer-nav .nav {
+  background-color: rgb(93, 65, 141);
   text-align: right;
   height: 1.3em;
 }
@@ -516,7 +515,6 @@
   width: 100%;
   margin-top: -33%;
   font-weight: 100;
-
 }
 
 .texto_info {
@@ -531,14 +529,11 @@
   margin-left: 45%;
 }
 
-.container_info2{
+.container_info2 {
 
   width: 100%;
-  
   padding: 140px;
-  
-  }
-  
+}
 
 .subtitle2 {
 
@@ -575,109 +570,293 @@
   margin-bottom: 40px;
 }
 
-.button__info{
+.button__info {
 
   font-weight: 100;
   text-decoration: none;
   background-color: white;
   border: 2px solid white;
   color: black;
-  width: 30%;  
+  width: 30%;
   border-radius: 8px;
   padding: 8px;
   margin-left: -9%;
   margin-bottom: 60%;
   box-shadow: -4px 0 13px 0 #b88bd8;
   -webkit-box-shadow: -5px 0 13px 0 #b88bd8;
-
 }
 
 .button__info:hover {
 
   background-color: #232159;
   color: #ffffff;
+}
 
+.ihomestay {
+
+  margin-top: 20%;
+
+}
+
+.img_info4 {
+  width: 18rem;
+  margin-left: 4%;
+}
+
+.text_info4 {
+  color: #000;
+  margin-top: 1rem;
+  text-align: justify;
+  padding-right: 0.8rem;
+  font-weight: 300;
+  width: 45%;
+  margin-left: 4%;
+}
+
+.hr {
+  height: 200px;
+  width: 1px;
+  margin-left: 50%;
+  margin-top: -15%;
+  color: #000;
+  background-color: #000;
+
+}
+
+.ihomestay1 {
+  margin-left: 52%;
+}
+
+.img_info5 {
+  width: 16rem;
+  margin-top: -50%;
+}
+
+.text_info5 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  width: 40%;
+  margin-left: 52%;
+  margin-top: -40%;
 }
 
 /*enviar correo*/
 
 .sendemail {
-  
+
   margin-left: 130px;
   margin-top: 20%;
   background-color: #ffffff;
-  width: 70%;
-  height: 541px;
+  width: 60%;
+  height: 841px;
   margin-left: 15%;
-  border-radius: 4%;
+  border-radius: 10px;
   box-shadow: -5px 5px 13px 0px #b88bd8;
   -webkit-box-shadow: -5px 5px 13px 0px #b88bd8;
+  padding: 20px;
+}
+
+.container-info{
+margin-left: 5%;
 
 }
 
+.send_question {
 
-
-.send_question{
-
-    text-align: center;
-    font-weight: 600;
-    color: #232159;    
-    font-size: 2rem;
-    margin-bottom: 200px;
+  text-align: center;
+  font-weight: 600;
+  color: #232159;
+  font-size: 2rem;
+  margin-bottom: 200px;
+  font-weight: 300;
 }
 
 
-.formulario{
-
-margin-top: -20%;
-margin-left: 10%;
-
-
+.formulario {
+  margin-top: -25%;
+  margin-left: 10%;
+  border-bottom: 2px solid #4f177d;
+  width: 28%;
+  padding: 10px;
 }
 
-.formulario2{
-
-  margin-top: -4%;
+.formulario1-2 {
+  margin-top: -11%;
   margin-left: 60%;
-  
-  
-  
+  border-bottom: 2px solid #4f177d;
+  width: 28%;
+  padding: 10px;
 }
 
-.formulario3{
+.campo {
+  border: none;
+  outline: none;
+}
 
+.colocar_texto {
+  margin-left: 29px;
+}
+
+
+
+.formulario2 {
+  margin-top: -12%;
+  margin-left: 60%;
+  border-bottom: 2px solid #4f177d;
+  width: 28%;
+  padding: 10px;
+}
+
+
+.formulario2-1 {
+  margin-top: 10%;
+  margin-left: 10%;
+  border-bottom: 2px solid #4f177d;
+  width: 80%;
+  padding: 10px;
+}
+
+.form-control-error {
+  position: absolute;
+  font-size: 14px;
+  display: none;
+  line-height: 15px;
+  color: #bb2929;
+  width: 85%;
+  visibility: hidden;
+}
+
+
+.formulario3 {
   margin-top: 20%;
-  margin-left: 30%;
-  
-  
+  margin-left: 10%;
+  border-bottom: 2px solid #4f177d;
+  width: 80%;
+  text-align: center;
+  padding: 10px 5px;
 }
 
-.formulario4{
+.formulario3-1 {
+  margin-top: 5%;
+  margin-left: 10%;
+  border-bottom: 2px solid #4f177d;
+  width: 28%;
+  text-align: center;
+  padding: 10px 5px;
+
+}
 
 
-  margin-left: 30%;
+.formulario3-2 {
+  margin-top: -13%;
+  margin-left: 60%;
+  border-bottom: 2px solid #4f177d;
+  width: 28%;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+
+
+.formulario4 {
+  margin-left: 10%;
   margin-bottom: 20%;
-  
-  
+  margin-top: 20%;
 }
 
-.button__info2{
+.formulario4-1 {
+  margin-left: 10%;
+  margin-bottom: 20%;
+  margin-top: 5%;
+  width: 20%;
+  padding: 20px;
+}
 
+.select{
+
+  width: 90%;
+  border: none;
+  margin-left: 3%;
+  padding: 10px;
+  overflow: auto;
+  border-bottom: 2px solid #4f177d;
+  border-radius: 0;
+  outline: none;
+
+}
+
+.campo1-1 {
+  width: 100%;
+  border: none;
+  margin-left: 10%;
+  padding: 10px;
+  overflow: auto;
+  border-bottom: 2px solid #4f177d;
+  border-radius: 6px;
+  outline: none;
+}
+
+
+.campo1 {
+  width: 80%;
+  border: none;
+  margin-left: 10%;
+  background-color: rgb(238, 238, 238);
+  resize: vertical;
+  padding: 40px;
+  overflow: auto;
+  border-bottom: 2px solid #4f177d;
+  border-radius: 6px;
+  outline: none;
+}
+
+.colocar_nombre {
+
+  font-weight: 600;
+  color: #4f177d;
+  font-size: .875rem;
+}
+
+.colocar_email {
+  font-weight: 600;
+  color: #4f177d;
+  font-size: .875rem;
+}
+
+.colocar_texto {
+  font-weight: 600;
+  color: #4f177d;
+  font-size: .875rem;
+  margin-left: -30px;
+}
+
+.colocar_texto1 {
+  font-weight: 600;
+  color: #4f177d;
+  font-size: .875rem;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-top: 10px;
+
+}
+
+
+.button__info2 {
   padding: 0.5rem 1rem;
-    background-color: #4f177d;
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-    cursor: pointer;
-    transition: all .1s;
-    margin: 0 auto;
-    text-decoration: none;
-    margin-left: 40%;
-    
-
+  background-color: #4f177d;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: all .1s;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-left: 40%;
 }
 
-.button__info2:hover{
-
-background-color: #8A3ACA;
+.button__info2:hover {
+  background-color: #8A3ACA;
 }

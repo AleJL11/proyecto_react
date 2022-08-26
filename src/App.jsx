@@ -1,8 +1,14 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom';
 
-import * as components from './components';
-import * as pages from './components/pages';
+import Layout from './components/Layout';
+import Home from './components/pages/Home';
+import AboutUs from './components/pages/AboutUs';
+import ContactUs from './components/pages/ContactUs';
+import Help from './components/pages/Help';
+import Login from './components/pages/Login';
+import Register from './components/pages/Register';
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -10,17 +16,17 @@ function App() {
 
   return (
     <>
-      <Routes>
-          <Route path="/" element={<components.Layout />}>
-            <Route index element={<pages.Home />} />
-            <Route path="about" element={<pages.AboutUs />} />
-            <Route path="contact" element={<pages.ContactUs />} />
-            <Route path="help" element={<pages.Help />} />
-            <Route path="login" element={<pages.Login />} />
-            <Route path="register" element={<pages.Register />} />
-          </Route>
+    <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<AboutUs />} />
+          <Route path="contact" element={<ContactUs />} />
+          <Route path="help" element={<Help />} />
+          <Route path="login" element={<Login />} />
+          <Route path="register" element={<Register />} />
+        </Route>
       </Routes>
-      <components.Footer/>
+      <Footer/>
     </>
   );
 }
