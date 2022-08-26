@@ -9,19 +9,10 @@ const Help = () => {
         
         <h4>Help Page</h4>
     );
+    
 }
- return (
 
-     <> 
-        <Mmenu/>
 
-        <Questions/>
-
-        <Fpage/>
-     </>
-
-);
-};
 
 export default Help;
 
