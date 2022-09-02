@@ -437,6 +437,7 @@
   font-size: 15px;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .container__accommodationhome .button__accommodationhome:hover {
