@@ -8,7 +8,7 @@ import User from "/icons/user.svg";
 import Mail from "/icons/mail.svg";
 import Edit from "/icons/edit.svg";
 
-const AboutUs = () => {
+export const AboutUs = () => {
   return (
     <>
       <div className="container-info">
@@ -153,4 +153,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+
