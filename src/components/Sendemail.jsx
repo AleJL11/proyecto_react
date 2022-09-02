@@ -9,7 +9,8 @@ import Edit from "/icons/edit.svg";
 import lock from "/icons/lock.svg";
 import eyes from "/icons/eyes.svg";
 
-const Sendemail = () => {
+export const Sendemail = () => {
+  
     return (
       <>
         <div className="container-info">          
@@ -155,5 +156,3 @@ const Sendemail = () => {
 
     );
   };
-  
-  export default Sendemail;
