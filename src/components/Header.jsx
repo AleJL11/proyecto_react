@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 import '../App.css';
 import HomeborLogo from '../assets/img/homebor_logo.png';
 
-const Header = () => {
+export const Header = () => {
     return (
         <div className='container__header'>
             <div className="logo">
@@ -36,6 +36,4 @@ const Header = () => {
             </div>
         </div>
     )
-}
-
-export default Header;
+};
