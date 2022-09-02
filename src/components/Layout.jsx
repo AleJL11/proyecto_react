@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom';
 
-import Header from './Header';
+import {Header} from './Header';
 
-const Layout = () => {
+export const Layout = () => {
     return (
         <div>
             <Header />
@@ -10,5 +10,3 @@ const Layout = () => {
         </div>
     )
 }
-
-export default Layout;
