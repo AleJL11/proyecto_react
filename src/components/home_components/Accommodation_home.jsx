@@ -19,7 +19,7 @@ const Accommodation_home = () => {
         </div>
         <a
           className="button__accommodationhome"
-          href="https://calendly.com/homebor/demo?month=2021-08"
+          Link="https://calendly.com/homebor/demo?month=2021-08"
         >
             Book a Free Demo
         </a>
