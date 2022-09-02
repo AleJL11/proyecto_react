@@ -6,7 +6,7 @@ import Service from "../home_components/Service";
 import Download from "../home_components/Download";
 import Accommodation_home from "../home_components/Accommodation_home";
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
       <Banner />
@@ -25,5 +25,3 @@ const Home = () => {
     </>
   );
 };
-
-export default Home;
