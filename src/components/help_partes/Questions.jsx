@@ -16,7 +16,7 @@ return (
         <img src={imagenes.img1} alt="img-help" className="img_h"/>
         <div className="caja">
             <div className="contenido">
-                <h1>Hola mundo <p className="fecha">12-01-2022</p> </h1>
+                <h1>HOla mundo <p className="fecha">12-01-2022</p> </h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus veniam voluptates iure
                     in magnam aut distinctio mollitia doloremque vitae repellat saepe rem obcaecati sit temporibus nihil,
                     nobis omnis accusantium!</p>
