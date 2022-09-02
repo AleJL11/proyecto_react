@@ -9,7 +9,8 @@ import Edit from "/icons/edit.svg";
 import lock from "/icons/lock.svg";
 import eyes from "/icons/eyes.svg";
 
-export const Sendemail = () => {
+
+export  const Sendemail = () => {
   
     return (
       <>
