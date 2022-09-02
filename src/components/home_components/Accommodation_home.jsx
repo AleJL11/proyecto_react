@@ -1,5 +1,4 @@
 import Accommodation_home_img from "/accommodation_home1.png";
-
 const Accommodation_home = () => {
   return (
     <>
@@ -17,10 +16,7 @@ const Accommodation_home = () => {
             students.
           </p>
         </div>
-        <a
-          className="button__accommodationhome"
-          Link="https://calendly.com/homebor/demo?month=2021-08"
-        >
+        <a Link="https://calendly.com/homebor/demo?month=2021-08"  target="_blank" className="button__accommodationhome"     >
             Book a Free Demo
         </a>
       </div>
