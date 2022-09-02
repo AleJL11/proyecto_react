@@ -93,7 +93,7 @@
   text-align: justify;
   font-size: 20px;
   margin-bottom: 60px;
-  font-weight: 300;
+  font-weight: 250;
 }
 
 .button__banner {
@@ -461,22 +461,30 @@
 }
 
 .img_footer img {
-  width: 165%;
+  width: 100%;
   margin-left: 57px;
   margin-top: 15px;
 }
 
 .container__footer .ts-copyright {
   text-align: center;
-  margin-top: -41px;
+  margin-top: -25px;
   color: #fff;
 }
+
+.nav{
+
+  margin-top: -32px;
+}
+
 
 .container__footer .ts-copyright .ts-footer-nav .nav {
   background-color: rgb(93, 65, 141);
   text-align: right;
-  height: 1.3em;
-}
+  height: 1.1rem;
+  margin-left:80%;
+    
+  }
 
 .svg-inline--fa {
   display: var(--fa-display, inline-block);
@@ -484,10 +492,12 @@
   overflow: visible;
   vertical-align: -0.125em;
   justify-content: space-evenly;
-  margin: 10px 31px 10px 14px;
+  margin: -10px;
   margin-top: -4%;
   color: #fff;
-  padding: 11px;
+  padding: 0.5rem 1rem;
+  width: 15px; 
+  
 }
 
 /*About us*/
