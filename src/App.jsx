@@ -6,8 +6,6 @@ import { Home, AboutUs, ContactUs, Help, Login, Register } from './components/pa
 
 import "./App.css";
 
-
-
 function App() {
 
   return (

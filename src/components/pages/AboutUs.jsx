@@ -7,6 +7,7 @@ import download from "/download.png";
 import User from "/icons/user.svg";
 import Mail from "/icons/mail.svg";
 import Edit from "/icons/edit.svg";
+import { Sendemail } from '../index'
 
 export const AboutUs = () => {
   return (
@@ -49,7 +50,7 @@ export const AboutUs = () => {
             immersion, allowing students to better understand and experience the
             host country, which cannot be learned in a classroom.
           </p>
-          <Link className="button__info" to="../Sendemail" element="Sendemail">
+          <Link className="button__info" to="../index.js" element="Sendemail">
             Become a Homestay
           </Link>
         </div>

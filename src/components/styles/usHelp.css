@@ -1,0 +1,86 @@
+
+
+.ColorH{
+  background-color: #faf2ff;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  box-shadow: 0 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
+}
+
+.cardContactUsHelp{
+ float: right;
+ background-color: white;
+ margin-top: 12%;
+ margin-right: 18%;
+ width: 50%;
+ height: 60%;
+ margin-bottom: 32%;
+ padding-top: 0;
+ box-shadow: 0 0.1875rem 0.9375rem rgba(0, 0, 0, 0.15);
+}
+/*recover your password*/
+.cajaRecover{
+    padding: .5rem 1.5rem;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0px;
+    background-color: #4F177D;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 22px;
+  }
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/*recover your password fin*/
+
+.formularioHelp{
+    text-align: center;
+}
+.email1{
+  position: center;
+  margin-right: 51%;
+  font-size: 0.875rem;
+  color: #232159;
+}
+.email2{
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    outline: none;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #4F177D;
+    width: 50%;
+    
+  }
+  .emailEscrito{
+    position: center;
+    margin-right: 32%;
+  }
+  .iconH{
+    float: left;
+    margin-left: 30%;
+    margin-top: 4%;
+  }
+/*send mail*/
+.div__send {
+    display: flex;
+    justify-content: center;
+  }
+.btn__send{
+   padding: .5rem .8rem;
+   background-color: #4f177d;
+   color: #fff;
+   border: none;
+   border-radius: 6px;
+   transition: all .2s;
+   margin-top: 4%;
+}
+.btn__send:hover {
+    background-color: #5D418D;
+  }
+/*send mail* fin/
