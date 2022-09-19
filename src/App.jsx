@@ -18,8 +18,8 @@ function App() {
           <Route path="help" element={<Help />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
+          <Route path="Sendemail" element={<Sendemail />} />
         </Route>
-        <Route path="sendmail" element={<Sendemail />} />
       </Routes>
       <Footer/>
     </>
