@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ReCAPTCHA from "react-google-recaptcha";
 import Homestay from "/iHomestay_logo.png";
 import download from "/download.png";
 import User from "/icons/user.svg";
@@ -8,6 +7,7 @@ import Mail from "/icons/mail.svg";
 import Edit from "/icons/edit.svg";
 import lock from "/icons/lock.svg";
 import eyes from "/icons/eyes.svg";
+
 
 
 export  const Sendemail = () => {
