@@ -11,6 +11,7 @@
   margin-bottom: 10%;
   position: fixed;
   background-color: white;
+  background-repeat: no-repeat;
 }
 
 .logo {
