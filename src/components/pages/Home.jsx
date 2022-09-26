@@ -114,7 +114,11 @@ export const Home = () => {
           <a Link="https://calendly.com/homebor/demo?month=2021-08"  target="_blank" className="button__accommodationhome"     >
               Book a Free Demo
           </a>
+
+          
         </div>
+
+        
     </>
   );
 };
