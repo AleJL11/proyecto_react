@@ -12,7 +12,6 @@ export const AboutUs = () => {
   return (
     <>
       <div className="container-info">
-        <h4>About Us Page</h4>
         <h1 className="titulo_hombor">About us</h1>
         <h4 className="Subtitle">About us</h4>
 
@@ -151,6 +150,6 @@ export const AboutUs = () => {
 
     </>
   );
-};
+}
 
 
