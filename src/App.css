@@ -246,7 +246,7 @@
 .container__service .card {
   background-color: #ffffff;
   width: 30%;
-  height: auto;
+  height: 448px;
   margin-right: 24px;
   margin-left: 3%;
   border-radius: 4%;
@@ -265,7 +265,8 @@
 .container__service .card .card-body h1 {
   color: #232159;
   font-weight: 600;
-  font-size: 1.1rem
+  font-size: 1.1rem;
+  margin-top: 93px;
 }
 
 .container__service .card .card-body p {
