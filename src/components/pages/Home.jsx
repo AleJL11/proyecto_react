@@ -7,15 +7,16 @@ import Homestayhome_img from "/homestay_home.png";
 import Student_img from "/student_home.png";
 import Download_img from "/download.png";
 import Accommodation_home_img from "/accommodation_home1.png";
+import Image from 'react-bootstrap/Image'
 
 export const Home = () => {
   return (
     <>
       <Banner />
 
-      <div className="clicks">
+      <div class='container'>
         <div className="img_clicks">
-          <img src={Clicks_img} alt="Imagen Click" />
+          <img src={Clicks_img} alt="Imagen Click" className="img-fluid" />
         </div>
         <div className="container__texto--clicks">
           <h1>Perfect Matchmaking with just a few clicks</h1>
