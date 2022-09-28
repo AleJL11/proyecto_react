@@ -16,15 +16,15 @@ export const Home = () => {
 
       <div class='container'>
         <div className="img_clicks">
-          <img src={Clicks_img} alt="Imagen Click" className="img-fluid" />
+          <img src={Clicks_img} alt="Imagen Click" className="Image" />
         </div>
-        <div className="container__texto--clicks">
+        <div className="container">
           <h1>Perfect Matchmaking with just a few clicks</h1>
           <p>Our platform manages the selection process in a simple and intuitive way, integrating everyone.</p>
         </div>
         </div>
 
-        <div className="container__homestay">
+        <div className="container">
           <div className="container__texto--homestay">
             <h1>Happy Families, Happy Students</h1>
             <p>Homestay families easily set up their availability and confirm their bookings in our intuitive app.</p>
@@ -34,7 +34,7 @@ export const Home = () => {
           </div>
         </div>
 
-        <div className="container__save">
+        <div className="container">
           <div className="img_save">
             <img src={Save_img} alt="Imagen Save" />
           </div>
@@ -44,7 +44,7 @@ export const Home = () => {
           </div>
         </div>
       
-        <div className="container__service" id="services">
+        <div className="container" id="services">
           <div className="card">
             <div className="img_accommodation">
               <img src={Accommodation_img} alt="Imagen Accommodation" />
