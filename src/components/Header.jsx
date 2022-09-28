@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <div className="container">
       <div className="container">
-        <img src={HomeborLogo} alt="Homebor Logo" />
+        <img src={HomeborLogo} alt="Homebor Logo" class="col-sm-3 logo"/>
       </div>
       <div className="container__nav">
         <ul className="nav justify-content-center">
