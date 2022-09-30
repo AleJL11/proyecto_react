@@ -1,8 +1,9 @@
 .img-fluid{
     max-width: 100%;
     height: auto;
-      
-
+}
+.container__banner{
+    margin: 10%;
 }
 .Fright{
     float:right;
@@ -12,4 +13,88 @@
 }
 .logo{
     width: 12%;
+}
+.banner{
+    margin-bottom: -40%;
+    width: 100%;
+}
+.container__banner{
+top: 2rem;
+margin-left: 2rem;
+width: 50%;
+}
+.titulo_banner{
+font-size: 2.5rem;
+margin-bottom: .5rem;
+font-family: inherit;
+font-weight: 500;
+line-height: 1.2;
+color: #faf2ff;
+}
+.texto_banner{
+margin-top: 0;
+margin-bottom: 1rem;
+line-height: 1.5rem;
+font-weight: 300;
+color: #faf2ff;
+}
+.texto_button{
+
+
+}
+.button__banner{
+    padding: 0.4rem 1.1rem;
+    font-size: 0.9rem;
+    border-radius: 14px;
+}
+.button__banner:hover{
+    background-color: #232159;
+    color: #fff;
+}
+
+
+.info0{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.info1{
+    padding: 4rem;
+    background-color: #faf2ff;
+    
+}
+.info2{
+    padding: 4rem;
+}
+.imgcaja{
+    width: calc(90% - 1%);
+    padding: 1rem;
+}
+.img1{
+    width: 30%;
+}
+.img2{
+    width: 30%;
+    float: right;
+   
+}
+ .textocaja{
+    margin-top: 3%;
+    margin: 10%;
+    width: 50%;
+ }
+ .texto1{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #232159;
+ }
+ .texto2{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(77, 76, 76);
+    line-height: 2rem;
+    width: 100%;
 }
