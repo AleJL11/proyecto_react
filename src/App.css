@@ -1,6 +1,10 @@
 .img-fluid{
     max-width: 100%;
     height: auto;
+
+}
+.container__banner{
+    margin: 10%;
 }
 
 .Fright{
@@ -39,7 +43,6 @@ line-height: 1.5rem;
 font-weight: 300;
 color: #faf2ff;
 }
-
 .button__banner{
     padding: 0.4rem 1.1rem;
     font-size: 0.9rem;
@@ -96,7 +99,6 @@ color: #faf2ff;
     line-height: 2rem;
     width: 100%;
 }
-
 
 .container_text {
     margin-left: 40%;
@@ -165,4 +167,3 @@ color: #faf2ff;
     background-color: #232159;
     color: #fff;
 }
-
