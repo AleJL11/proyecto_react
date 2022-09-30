@@ -1,15 +1,168 @@
 .img-fluid{
     max-width: 100%;
     height: auto;
-      
-
 }
+
 .Fright{
     float:right;
 }
+
 .Fleft{
     float:left;
 }
+
 .logo{
     width: 12%;
 }
+
+.banner{
+    margin-bottom: -40%;
+    width: 100%;
+}
+.container__banner{
+top: 2rem;
+margin-left: 2rem;
+width: 50%;
+}
+.titulo_banner{
+font-size: 2.5rem;
+margin-bottom: .5rem;
+font-family: inherit;
+font-weight: 500;
+line-height: 1.2;
+color: #faf2ff;
+}
+.texto_banner{
+margin-top: 0;
+margin-bottom: 1rem;
+line-height: 1.5rem;
+font-weight: 300;
+color: #faf2ff;
+}
+
+.button__banner{
+    padding: 0.4rem 1.1rem;
+    font-size: 0.9rem;
+    border-radius: 14px;
+}
+.button__banner:hover{
+    background-color: #232159;
+    color: #fff;
+}
+
+
+.info0{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.info1{
+    padding: 4rem;
+    background-color: #faf2ff;
+    
+}
+.info2{
+    padding: 4rem;
+}
+.imgcaja{
+    width: calc(90% - 1%);
+    padding: 1rem;
+}
+.img1{
+    width: 30%;
+}
+.img2{
+    width: 30%;
+    float: right;
+   
+}
+ .textocaja{
+    margin-top: 3%;
+    margin: 10%;
+    width: 50%;
+ }
+ .texto1{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #232159;
+ }
+ .texto2{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(77, 76, 76);
+    line-height: 2rem;
+    width: 100%;
+}
+
+
+.container_text {
+    margin-left: 40%;
+    width: 49%;
+    margin-top: -30%;
+    font-size: 26px;
+    text-align: justify;
+}
+.titulo_hombor{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.Subtitle{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.img-info{
+    vertical-align: middle;
+    width: 33%;
+    margin-left: 3%;
+    margin-top:  11%;
+    border-radius: 4%;
+}
+
+.subtitle2{
+    text-align: center;
+    margin-top: -29%;
+}
+
+.img-info2{
+    vertical-align: middle;
+    width: 33%;
+    margin-left: 55%;
+    margin-top:  11%;
+    border-radius: 4%;
+}
+
+.texto_info2{
+    margin-left: 4%;
+    width: 49%;
+    margin-top: 4%;
+    font-size: 26px;
+    text-align: justify
+}
+
+.button__info{
+    background-color: rgb(248, 250, 250); 
+    border-bottom: 15%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333333;
+    padding-left: 10px;
+    padding-right: 10px;;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-left: 3%;
+} 
+
+.button__info:hover{
+    background-color: #232159;
+    color: #fff;
+}
+

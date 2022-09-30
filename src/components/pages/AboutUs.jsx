@@ -13,9 +13,8 @@ export const AboutUs = () => {
   return (
     <>
       <div className="container-info">
-        <h4>About Us Page</h4>
         <h1 className="titulo_hombor">About us</h1>
-        <h4 className="Subtitle">About us</h4>
+        <h4 className="Subtitle">Homebor</h4>
 
         <img src={Homborinfo} alt="Imagen info" className="img-info" />
 
@@ -39,10 +38,12 @@ export const AboutUs = () => {
             for users. Register and become part of our community.
           </p>
         </div>
+        
+        <img src={Homestay_p} alt="Imagen info" className="img-info2" />
 
         <div className="container_info2">
           <h4 className="subtitle2">Homestay</h4>
-          <img src={Homestay_p} alt="Imagen info" className="img-info2" />
+          
           <p className="texto_info2">
             A Homestay is a host family that offers home accommodation services
             to foreign students, such as accommodation and comfortable meals.
@@ -50,11 +51,12 @@ export const AboutUs = () => {
             immersion, allowing students to better understand and experience the
             host country, which cannot be learned in a classroom.
           </p>
-          <Link className="button__info" to="../index.js" element="Sendemail">
+          <Link className="button__info" to="../Sendemail" element="Sendemail">
             Become a Homestay
           </Link>
         </div>
-        <div className="sendemail">
+        
+        {/*<div className="sendemail">
           <h4 className="send_question">Send us your Question</h4>
 
           <div className="formulario">
@@ -126,11 +128,11 @@ export const AboutUs = () => {
           <Link className="button__info2" to="/src/components/Sendemail.jsx">
             Send Message
           </Link>
-        </div>
+        </div>*/}
 
       </div>
 
-      <div className="ihomestay">
+      {/*<div className="ihomestay">
           <img className="img_info4" src={Homestay} alt="imagen4" />
           <p className="text_info4">
             Being with iHomestay gives the opportunity to Inspires new language
@@ -149,7 +151,7 @@ export const AboutUs = () => {
             Homebor app for hosts is now available. Download it now!!
           </p>
         </div>
-
+      */}
     </>
   );
 };
